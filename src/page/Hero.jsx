@@ -1,6 +1,6 @@
 const Hero = () => {
 	return (
-		<div className='heroSection relative px-[2rem] py-[4rem] bg-cover bg-center bg-[url(https://i.pinimg.com/736x/a4/e1/74/a4e17404053c4d874e6cb11b7157f56f.jpg)] h-[50vh]'>
+		<div className='heroSection relative px-[2rem] py-[4rem] bg-cover bg-center bg-[url(https://i.pinimg.com/736x/a4/e1/74/a4e17404053c4d874e6cb11b7157f56f.jpg)] h-[50vh] lg:h-[70vh] lg:px-[10rem] lg:py-[10rem] '>
 			<div className='absolute inset-0 bg-black/40  '></div>
 
 			<div className='flex flex-col gap-4'>
