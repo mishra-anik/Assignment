@@ -1,0 +1,103 @@
+{
+  "courseTitle": "IELTS Coaching",
+  "description": "Complete IELTS preparation course covering Listening, Reading, Writing, and Speaking with lessons, tips, and practice tests.",
+  "modules": [
+    {
+      "title": "Listening",
+      "lessons": [
+        {
+          "title": "Introduction to IELTS Listening",
+          "type": "video",
+          "url": "https://example.com/videos/listening-intro.mp4"
+        },
+        {
+          "title": "Listening Strategies",
+          "type": "text",
+          "content": "Learn how to identify keywords, predict answers, and manage time effectively."
+        },
+        {
+          "title": "Practice Test 1",
+          "type": "quiz",
+          "questions": [
+            {
+              "question": "What is the speaker mainly discussing?",
+              "options": ["Travel", "Work", "Education", "Health"],
+              "answer": "Travel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reading",
+      "lessons": [
+        {
+          "title": "Introduction to IELTS Reading",
+          "type": "video",
+          "url": "https://example.com/videos/reading-intro.mp4"
+        },
+        {
+          "title": "Skimming and Scanning",
+          "type": "text",
+          "content": "Practice finding keywords quickly and improving reading speed."
+        },
+        {
+          "title": "Practice Test 1",
+          "type": "quiz",
+          "questions": [
+            {
+              "question": "What is the main idea of Passage A?",
+              "options": ["Climate Change", "Technology", "Education", "Food"],
+              "answer": "Climate Change"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Writing",
+      "lessons": [
+        {
+          "title": "Introduction to IELTS Writing",
+          "type": "video",
+          "url": "https://example.com/videos/writing-intro.mp4"
+        },
+        {
+          "title": "Task 1: Academic Report",
+          "type": "text",
+          "content": "Learn how to describe charts, graphs, and data in a structured way."
+        },
+        {
+          "title": "Task 2: Essay Writing",
+          "type": "text",
+          "content": "Understand how to write essays with clear structure, arguments, and examples."
+        }
+      ]
+    },
+    {
+      "title": "Speaking",
+      "lessons": [
+        {
+          "title": "Introduction to IELTS Speaking",
+          "type": "video",
+          "url": "https://example.com/videos/speaking-intro.mp4"
+        },
+        {
+          "title": "Part 1: Personal Questions",
+          "type": "text",
+          "content": "Practice answering simple questions about yourself, hobbies, and daily life."
+        },
+        {
+          "title": "Part 2: Cue Card Practice",
+          "type": "text",
+          "content": "Learn how to organize answers and speak fluently for 2 minutes."
+        },
+        {
+          "title": "Part 3: Discussion",
+          "type": "text",
+          "content": "Practice giving opinions on abstract topics and extending answers."
+        }
+      ]
+    }
+  ]
+}

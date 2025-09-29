@@ -1,4 +1,6 @@
+import {Link, useNavigate} from 'react-router-dom';
 const Hero = () => {
+	const navigate = useNavigate();
 	return (
 		<div className='heroSection relative px-[2rem] py-[4rem] bg-cover bg-center bg-[url(https://i.pinimg.com/736x/a4/e1/74/a4e17404053c4d874e6cb11b7157f56f.jpg)] h-[50vh] lg:h-[70vh] lg:px-[10rem] lg:py-[10rem] '>
 			<div className='absolute inset-0 bg-black/40  '></div>
@@ -12,11 +14,14 @@ const Hero = () => {
 					preparation courses , resourcess and expert guidance.
 				</p>
 
-				<button className='bg-blue-600 text-white px-4 py-2 rounded-md drop-shadow-md  w-[10rem] mt-8 hover:bg-blue-800'>
+				
+
+				<button onClick={()=>navigate('/courses')}   className='bg-blue-600 text-white px-4 py-2 rounded-md drop-shadow-md  w-[10rem] mt-8 hover:bg-blue-800'>
 					Explore Courses
 				</button>
 			</div>
 		</div>
+
 	);
 };
 
