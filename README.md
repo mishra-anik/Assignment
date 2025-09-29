@@ -1,16 +1,82 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# IELTS Prep - React Application
 
-Currently, two official plugins are available:
+A modern web app for comprehensive IELTS exam preparation, built with React, Vite, and TailwindCSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Hero Section**: Eye-catching introduction with a call-to-action to explore courses.
+- **Key Features**: Highlights core offerings:
+	- Speaking Practice (interactive exercises)
+	- Mock Test (real exam simulation)
+	- AI Band Score (automated scoring estimate)
+	- Personalized Coaching (tailored guidance)
+- **Student Testimonials**: Real feedback from successful students.
+- **Course Page**: Detailed IELTS course with modules for Listening, Reading, Writing, and Speaking.
+	- Each module contains lessons (video, text, quiz).
+	- Quizzes provide instant feedback on answers.
+- **Navigation**: Simple routing for Home and Course pages.
+- **Responsive Design**: Optimized for desktop and mobile.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
 
-## Expanding the ESLint configuration
+```
+src/
+	App.jsx                # Main app layout (navbar, footer)
+	main.jsx               # Entry point, sets up routing
+	index.css              # Tailwind and custom styles
+	assets/
+		iletsCourse.json     # Course data (modules, lessons, quizzes)
+	component/
+		Hero.jsx             # Hero section
+		Features.jsx         # Features overview
+		Card.jsx             # Individual feature cards
+		Testimonials.jsx     # Student testimonials
+		Module.jsx           # Course module display
+		Lesson.jsx           # Lesson display (video, text, quiz)
+		Quiz.jsx             # Quiz component
+	page/
+		Course.jsx           # Course page, renders modules
+	routes/
+		Nav.jsx              # App routes (Home, Courses)
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+1. **Install dependencies**  
+	 ```powershell
+	 npm install
+	 ```
+
+2. **Run the development server**  
+	 ```powershell
+	 npm run dev
+	 ```
+
+3. **Build for production**  
+	 ```powershell
+	 npm run build
+	 ```
+
+4. **Preview production build**  
+	 ```powershell
+	 npm run preview
+	 ```
+
+## Tech Stack
+
+- **React** (SPA, components)
+- **Vite** (fast dev/build)
+- **TailwindCSS** (utility-first styling)
+- **React Router** (routing)
+- **ESLint** (code quality)
+
+## Customization
+
+- Update course content in `src/assets/iletsCourse.json`.
+- Add new modules, lessons, or quizzes as needed.
+- Modify styles in `src/index.css` or Tailwind config.
+
+## License
+
+MIT
