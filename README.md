@@ -1,5 +1,7 @@
 # 🧑‍⚕️ Patient Management Dashboard (React)
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel)](https://assignment-eta-ashy.vercel.app/)
+
 A modern and responsive **React-based Patient Management Dashboard** to display patient records, view detailed information in a popup modal, and demonstrate key React features like **Context API**, **Lazy Loading**, **React Router**, and **Dynamic Fetching**.
 
 ---
