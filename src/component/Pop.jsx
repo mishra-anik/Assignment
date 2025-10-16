@@ -23,8 +23,7 @@ const Pop = ({ patient, onClose }) => {
 					<h2 className="text-2xl font-semibold">{name} <span className="text-gray-500 text-sm">({id})</span></h2>
 					<button
 						onClick={onClose}
-						className="text-gray-600 hover:text-gray-900 ml-4"
-						aria-label="Close details"
+						className="text-gray-600 hover:text-gray-900 ml-4 cursor-pointer"
 					>
 						✕
 					</button>
@@ -44,7 +43,7 @@ const Pop = ({ patient, onClose }) => {
 				<div className="mt-6 flex justify-end">
 					<button
 						onClick={onClose}
-						className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+						className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 cursor-pointer"
 					>
 						Close
 					</button>
