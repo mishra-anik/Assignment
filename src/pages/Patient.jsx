@@ -1,6 +1,6 @@
-import Card from "../component/Card";
+import { useEffect, useState, useContext, lazy, Suspense } from "react";
+const Card = lazy(() => import("../component/Card"));
 import Pop from "../component/Pop";
-import { useEffect, useState, useContext } from "react";
 import { DataContext } from "../context/Data";
 
 const Patient = () => {
@@ -44,11 +44,13 @@ const Patient = () => {
 			<div className='container mx-auto p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
 				{patients && patients.length > 0 ? (
 					patients.map((patient, idx) => (
-						<Card
-							key={idx}
-							data={patient}
-							onSeeMore={(p) => setSelectedPatient(p)}
-						/>
+						<Suspense >
+							<Card
+								key={idx}
+								data={patient}
+								onSeeMore={(p) => setSelectedPatient(p)}
+							/>
+						</Suspense>
 					))
 				) : (
 					<p>No patients found.</p>
